@@ -1,0 +1,27 @@
+nav{
+    /* Typography */
+    text-decoration: none;
+    color: var(--color-primary);
+
+    /* background */
+    background-color: var(--color-bg);
+    
+    /* Layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Spacing  */
+    padding: var(--space-sm);
+}
+
+nav > a{
+    text-decoration: none;
+    color: var(--color-primary);
+
+    /* font-size: 30px; */
+    margin: 0 20px;
+}
+nav > a:hover{
+    color: var(--color-primary-hover);
+}

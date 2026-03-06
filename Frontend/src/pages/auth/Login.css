@@ -1,0 +1,23 @@
+div{
+    font-size: 10px;
+}
+.Login_container{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: gray;
+}
+
+
+.Modal-contant{
+    /* width: 1; */
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    flex-direction: column;
+}

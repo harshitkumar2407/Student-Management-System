@@ -1,0 +1,108 @@
+/* ================= BUTTON BASE ================= */
+
+.btn {
+
+  /* Structure */
+  border: none;
+  border-radius: 8px;
+
+  /* Typography */
+  font-weight: 600;
+
+  /* Spacing */
+  padding: var(--space-sm) 18px;
+
+  /* Animation */
+  transition: all 0.25s ease;
+
+  cursor: pointer;
+}
+
+
+/* ================= BUTTON SIZES ================= */
+
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.btn-md {
+  padding: var(--space-sm) 18px;
+  font-size: 16px;
+}
+
+.btn-lg {
+  padding: 14px 24px;
+  font-size: 18px;
+}
+
+
+/* ================= BUTTON VARIANTS ================= */
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-text);
+}
+
+.btn-secondary {
+  background: var(--color-secondary);
+  color: var(--color-text);
+}
+
+.btn-danger {
+  background: var(--color-danger);
+  color: var(--color-text);
+}
+
+
+/* ================= HOVER ================= */
+
+.btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+
+/* ================= ACTIVE (CLICKED) ================= */
+
+.btn:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
+
+/* ================= DISABLED ================= */
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+/* ================= LOADING ================= */
+
+.btn-loading {
+  pointer-events: none;
+}
+
+
+/* ================= SPINNER ================= */
+
+.spinner {
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid white;
+  border-top: 2px solid transparent;
+
+  border-radius: 50%;
+
+  display: inline-block;
+
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

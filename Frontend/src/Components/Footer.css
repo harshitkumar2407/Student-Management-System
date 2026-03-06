@@ -1,0 +1,22 @@
+.Footer{
+    /* color: wheat; */
+    outline: 1px solid white;
+
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+    padding: 20px;    
+    bottom: 0;
+
+    
+}
+.Footer > div{
+    flex: 1;
+}
+
+.child > a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 50px;
+}

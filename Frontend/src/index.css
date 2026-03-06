@@ -1,0 +1,32 @@
+:root {
+  /* Colors */
+  --pri-color: #4f46e5;
+  --sec-color: #06b6d4;
+
+  /* Spacing */
+  --space-sm: 8px;
+  --space-md: 16px;
+
+  /* Radius */
+  --radius: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* color: wheat; */
+    box-sizing:border-box;
+    font-family:'helvetica neue'; 
+    font-size: 24px;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+}
+h1{
+    font-size: 200px;
+    color: var(--sec-color);
+    text-align: center;
+}
